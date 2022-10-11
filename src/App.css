@@ -5,16 +5,57 @@
     ._container .navigations, .content {
         display: inline-block;
         vertical-align: top;
+        height: 1000px;
     }
     ._container .navigations {
-        width: 10%;
+        width: 100px;
+        height: 100vh;
+        padding-right: 10px;
+        text-align: center;
+        position: fixed;
+        border-right: 0.2px solid gray;
+
     }
         ._container .navigations ul {
             list-style-type: none;
         }
+            ._container .navigations ul li  {
+                margin-top: 20px;
+            }
+                ._container .navigations ul li a {
+                    padding: 10px;
+                    border-radius: 50%;
+                }
+                    ._container .navigations ul li a:hover{
+                        background: rgba(207, 207, 207, 0.092);                    
+                    }
+                    ._container .navigations ul li a svg {
+                        color: white;
+                        font-size: 1.5rem;
+                        vertical-align: top;
+                    }
+                    
+                    ._container .navigations ul li #post {
+                        padding: 0px;
+                    }
+                        ._container .navigations ul li #post #post_icon {
+                            height: 50px;
+                        }
+
+                    ._container .navigations ul #user {
+                        margin-top: 60px;
+                    }
+                        ._container .navigations ul #user a img {
+                            border-radius: 50%;
+                        }
+
+
+
+   
     
 
     ._container .content {
         padding: 10px;
-        
+        margin-left: 100px;
+        color: white;
     }
