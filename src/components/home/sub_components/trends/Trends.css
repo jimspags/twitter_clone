@@ -1,0 +1,76 @@
+.search_trends {
+    display: inline-block;
+    vertical-align: top;
+    width: 383px;
+    padding: 5px 10px 10px 25px ;
+    height: 1000%;
+    border-left: 1px solid gray;
+}
+    .search_trends form {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+        .search_trends form input {
+            width: 100%;
+            border-radius: 50px;
+            border: none;
+            padding: 7px 20px;
+            background-color: rgba(114, 114, 114, 0.377);
+        }
+
+    .search_trends .trends {
+        height: auto;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: rgba(114, 114, 114, 0.377);
+    }
+        .search_trends .trends h4 {
+            padding: 10px 0px;
+        }
+
+
+        
+.trend {
+    padding: 10px 5px;
+}
+    .trend:hover {
+        background-color: rgba(163, 163, 163, 0.452);
+    }
+    .trend h4, p, h5 {
+        margin: 0px;
+    }
+    .trend p {
+        position: relative;
+        color: gray;
+        font-size: .8rem;
+    }
+        .trend p span {
+            position: absolute;
+            right: 0px;
+            border-radius: 50%;
+            border: none;
+            padding: 5px;
+        }
+            .trend p span svg {
+                vertical-align: middle;
+                font-size: 1rem;
+            }
+            .trend p span:hover {
+                background-color: rgba(0, 255, 255, 0.241);
+                color: rgba(0, 255, 255, 0.701);
+            }
+            
+    .trend .title {
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+
+
+
+
+
+        
+
+    

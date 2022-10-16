@@ -1,0 +1,24 @@
+.explore_main ul {
+    list-style-type: none;
+    padding: 0px;
+    border-bottom: 1px solid gray;
+}
+    .explore_main ul li {
+        display: inline-block;
+        width: 50%;
+        height: 29px;
+        text-align: center;
+    }
+        .explore_main ul li:hover {
+            background-color: rgba(161, 161, 161, 0.253);
+        }
+        .explore_main ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: .8rem;
+            font-weight: bold;
+            padding: 6px 20px;
+        }
+        #all_notifications {
+            border-bottom: 5px solid #1e9af1;
+        }

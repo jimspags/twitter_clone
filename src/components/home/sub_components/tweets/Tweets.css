@@ -1,0 +1,99 @@
+.tweet {
+    padding: 10px;
+    border-top: 1px solid gray;
+}
+    .tweet ul {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        position: relative;
+    }
+        .tweet ul li {
+            display: inline-block;
+        }
+            .tweet ul li svg {
+                font-size: 1rem;
+            }
+
+    .tweet .tweet_controls ul {
+        position: relative;
+    }
+        .tweet .tweet_controls ul .tweet_message, .tweet_name, .tweet_see_more {
+            margin: 0px 5px;
+        }
+    
+    .tweet .tweet_controls ul li .tweet_dismiss {
+        position: absolute;
+        right: 0px;
+    }
+
+    .tweet .tweet_controls ul .tweet_message, .tweet_dismiss {
+        color: gray;
+    }
+
+    .tweet .tweet_controls ul .tweet_name {
+        color: gray;
+        font-size: .8rem;
+    }
+    .tweet .tweet_controls ul .tweet_see_more {
+        color: #1e9af1;
+        font-size: .8rem;
+    }  
+    .tweet .tweet_controls ul .tweet_see_more a {
+        text-decoration: none;
+    }
+        .tweet .tweet_controls ul .tweet_see_more a:hover {
+            text-decoration: underline;
+        }
+    .tweet .tweet_controls ul .tweet_dismiss {
+        position: absolute;
+        right: 0px;
+    }
+
+    .tweet .tweet_content {
+        padding: 10px 0px;
+    }
+        .tweet .tweet_content img {
+            height: 50px;
+            margin-top: 5px;
+            vertical-align: top;
+            border-radius: 50%;
+        }
+        .tweet .tweet_content .tweet_post {
+            display: inline-block;
+            width: 88%;
+            padding-left: 10px;
+        }
+            .tweet .tweet_content .tweet_post ul .tweet_post_name a, .tweet_post_username a, .tweet_post_time a {
+                text-decoration: none;
+                font-size: .8rem;
+                margin-right: 5px;
+            }
+            .tweet .tweet_content .tweet_post ul .tweet_post_name a{
+                color: white;
+                font-weight: bold;
+            }
+            .tweet .tweet_content .tweet_post ul .tweet_post_username a, .tweet_post_time a{
+                color: gray;
+            }
+            .tweet .tweet_content .tweet_post .tweet_see_more {
+                position: absolute;
+                right: 0px;
+                margin: 0px;
+            }
+            .tweet .tweet_content .tweet_post p {
+                font-size: .8rem;
+            }
+            .tweet .tweet_content .tweet_post .tweet_interactions ul {
+                padding: 5px 0px;
+            }
+                .tweet .tweet_content .tweet_post .tweet_interactions ul li {
+                    margin-right: 35px;
+                    color: gray;
+                    font-size: .8rem;
+                }
+                    .tweet .tweet_content .tweet_post .tweet_interactions ul li svg {
+                        font-size: 1.2rem;
+                        vertical-align: top;
+                    }
+

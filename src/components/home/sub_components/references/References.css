@@ -1,0 +1,17 @@
+.references {
+    padding: 10px;
+}
+    .references a{
+        margin-right: 7px;
+        color: gray;
+        text-decoration: none;
+        font-size: .8rem;
+    }
+    .references a:hover {
+        color: gray;
+        text-decoration: underline;
+    }
+    #twitter_credit {
+        color: gray;
+        font-size: .8rem;
+    }

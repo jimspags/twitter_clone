@@ -1,0 +1,31 @@
+.home_main {
+    width: 550px;
+    position: relative;
+    display: inline-block;
+}
+    .home_main #username {
+        font: gray;
+    }
+
+    .home_main h4, #top_tweets {
+        display: inline-block;
+    }
+    .home_main #top_tweets {
+        position: absolute;
+        right: 0px;
+        padding: 5px;
+        border-radius: 50%;
+    }
+        .home_main #top_tweets:hover {
+            background: rgba(207, 207, 207, 0.092);  
+            cursor: pointer;                  
+        }
+        .home_main #top_tweets svg {
+            font-size: 1.5rem;
+            vertical-align: top;
+        }
+
+    
+    
+
+            

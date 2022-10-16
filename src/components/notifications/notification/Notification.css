@@ -1,0 +1,20 @@
+.notification {
+    border-bottom: 1px solid gray;
+    padding: 5px 0px;
+}
+    .notification:hover {
+        background-color: rgba(145, 145, 145, 0.253);
+        cursor: pointer;
+    }
+
+    .notification svg {
+        font-size: 1.3rem;
+        margin: 5px;
+        vertical-align: top;
+    }
+        .notification p {
+            display: inline-block;
+            width: 90%;
+            font-size: .8rem;
+            margin-left: 5px;
+        }

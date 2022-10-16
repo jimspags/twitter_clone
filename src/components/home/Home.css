@@ -1,0 +1,107 @@
+.home_main {
+    width: 550px;
+    position: relative;
+    display: inline-block;
+}
+    .home_main h4, #top_tweets {
+        display: inline-block;
+    }
+    .home_main #top_tweets {
+        position: absolute;
+        right: 0px;
+        padding: 5px;
+        border-radius: 50%;
+    }
+        .home_main #top_tweets:hover {
+            background: rgba(207, 207, 207, 0.092);  
+            cursor: pointer;                  
+        }
+        .home_main #top_tweets svg {
+            font-size: 1.5rem;
+            vertical-align: top;
+        }
+    
+    .home_main .post {
+        margin-top: 10px;
+    }
+        .home_main .post img {
+            height: 60px;
+            border-radius: 50%;
+            vertical-align: top;
+        }
+        .home_main .post form {
+            width: 470px;
+            margin-left: 10px;
+            display: inline-block;
+        }
+            .home_main .post form select, textarea {
+                background-color: transparent;
+                display: block;
+            }
+            .home_main .post form textarea {
+                border: none;
+                resize: none;
+                outline: none;
+            }
+            .home_main .post form select {
+                color: #1e9af1;
+            }
+                #choose_audience {
+                    border-radius: 10px;
+                    padding: 0px 10px;
+                    margin-left: 13px;
+                    vertical-align: top;
+                }
+                #who_reply {
+                    border: none;
+                    appearance: none;
+                    padding-left: 10px;
+                    margin-left: 5px;
+                }
+
+            .home_main .post form textarea {
+                width: 400px;
+                border: none;
+                color: gray;
+                padding: 15px;
+                resize: none;
+            }
+
+            .home_main .post form ul {
+                list-style-type: none;
+                display: inline-block;
+                position: relative;
+                width: 97%;
+                height: 55px;
+                padding: 10px 0px 0px 0px;
+                margin: 10px;
+                border-top: 0.5px solid gray;
+            }
+                .home_main .post form ul li {
+                    display: inline-block;
+                    font-size: 1.3rem;
+                    color: #1e9af1;
+                    margin-right: 10px;
+                }
+                    .home_post .post form ul li svg {
+                        vertical-align: top;
+                    }
+                    .home_post .post form ul li:hover {
+                        cursor: grab;
+                    }
+
+                    #post_tweet {
+                        position: absolute;
+                        right: 0px;
+                    }
+                        #post_tweet input {
+                            background-color: #1e9af1;
+                            color: white;
+                            padding: 5px 15px;
+                            border-radius: 20px;
+                            font-size: 1rem;
+                            font-weight: bold;
+                        }
+
+
+            

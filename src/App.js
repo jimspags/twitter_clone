@@ -22,18 +22,24 @@ import { BiHomeCircle, BiHash, BiBell, BiMessageSquareDetail, BiBookmark, BiList
 import { BsTwitter } from "react-icons/bs";
 
 function App() {
+    const clickHandler = () => {
+        document.getElementsByClassName("main_navigation")[1].style.fontWeight = "bold";
+        // for(var i = 0; i < document.getElementsByClassName("main_navigation").length; i++) {
+
+        // }
+    }
     return (
         <Router>
             <div className="_container">
                 <div className="navigations">
                     <ul>
-                        <li>
-                            <Link to="/"><BsTwitter /></Link>
+                        <li className="main_navigation" onClick={clickHandler}>
+                            <Link to="/"><BsTwitter/></Link>
                         </li>
-                        <li>
+                        <li className="main_navigation" onClick={clickHandler}>
                             <Link to="/"><BiHomeCircle /></Link>
                         </li>
-                        <li>
+                        <li className="main_navigation" onClick={clickHandler}>
                             <Link to="/explore"><BiHash /></Link>
                         </li>
                         <li>
@@ -62,6 +68,7 @@ function App() {
                         </li>
                     </ul>
                 </div>
+
                 <div className="content">
                     <Routes>
                         <Route exact path='/' element={<Home />}></Route>
@@ -73,6 +80,7 @@ function App() {
                         <Route exact path='/profile' element={<Profile />}></Route>
                     </Routes>
                 </div>
+                
             </div>
 
         </Router>

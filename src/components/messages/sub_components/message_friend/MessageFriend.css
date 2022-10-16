@@ -1,0 +1,26 @@
+.friend {
+    padding: 12px 8px;
+    background-color: rgba(128, 128, 128, 0.295);
+    border-right: 2px solid #1e9af1;;
+}
+    .friend img {
+        height: 40px;
+        border-radius: 50%;
+        vertical-align: top;
+    }
+        .friend .friend_message {
+            width: 80%;
+            display: inline-block;
+            font-size: .7rem;
+            margin-left: 10px;
+        }
+        .friend .friend_message .friend_details .friend_details_muted {
+            color: lightgray;
+        }
+        .friend .friend_message p.message, p span.name {
+            font-weight: bold;
+        }
+        .friend .friend_message p svg {
+            vertical-align: top;
+            font-size: 1rem;
+        }
